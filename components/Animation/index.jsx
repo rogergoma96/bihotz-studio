@@ -34,7 +34,7 @@ const Animation = () => {
           section {
             background: ${colors.primary};
             border-right: 1px solid ${colors.black};
-            height: 100%;
+            height: 120%;
             overflow: hidden;
             position: fixed;
             top: 0;

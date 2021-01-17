@@ -1,4 +1,4 @@
-import { colors } from "../../styles/theme";
+import { breakpoints, colors } from "../../styles/theme";
 
 const Header = () => (
   <>
@@ -32,6 +32,15 @@ const Header = () => (
 
       p:nth-child(2) {
         padding: 0 8px;
+      }
+
+      @media (max-width: ${breakpoints.mobile}) {
+        p:nth-child(2),
+        p:nth-child(3),
+        p:last-child,
+        span {
+          display: none;
+        }
       }
     `}</style>
   </>

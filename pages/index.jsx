@@ -41,6 +41,7 @@ export default function Home() {
       <style jsx>{`
         main {
           margin-left: 20%;
+          min-height: calc(100vh - 30px);
           padding: 140px 56px 56px 120px;
         }
 
@@ -75,6 +76,23 @@ export default function Home() {
             font-size: 32px;
             letter-spacing: -1px;
             line-height: 40px;
+          }
+        }
+
+        @media (max-width: ${breakpoints.mobile}) {
+          main {
+            padding: 88px 32px 38px;
+          }
+
+          h2 {
+            font-size: 32px;
+            line-height: 40px;
+          }
+
+          p {
+            font-size: 18px;
+            letter-spacing: -1px;
+            line-height: 24px;
           }
         }
       `}</style>

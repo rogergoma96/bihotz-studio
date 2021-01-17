@@ -1,4 +1,4 @@
-import { colors } from "../../styles/theme";
+import { breakpoints, colors } from "../../styles/theme";
 
 const Footer = () => (
   <>
@@ -10,8 +10,8 @@ const Footer = () => (
       footer {
         display: flex;
         justify-content: flex-end;
-        margin-left: 20%; 
-        padding: 8px;
+        margin-left: 20%;
+        padding: 0 16px 16px 0;
         width: 80%;
       }
 
@@ -19,7 +19,7 @@ const Footer = () => (
         font-size: 12px;
         font-family: Arial;
         margin: 0;
-        padding: 8px;
+        padding: 0;
       }
     `}</style>
   </>

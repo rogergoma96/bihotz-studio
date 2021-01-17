@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ArrowIcon from "../../Icons/Arrow";
 
-import { colors } from "../../../styles/theme";
+import { breakpoints, colors } from "../../../styles/theme";
 
 const Link = ({ text, href }) => {
   const [color, setColor] = useState(colors.black);
@@ -20,6 +20,7 @@ const Link = ({ text, href }) => {
       <style jsx>
         {`
           span {
+            font-size: 18px;
             margin-left: 8px;
           }
 
@@ -30,6 +31,12 @@ const Link = ({ text, href }) => {
 
           a:hover span {
             color: ${colors.primary};
+          }
+
+          @media (max-width: ${breakpoints.mobile}) {
+            span {
+              font-size: 14px;
+            }
           }
         `}
       </style>

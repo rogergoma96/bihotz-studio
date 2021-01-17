@@ -1,3 +1,4 @@
+import { breakpoints } from "../../styles/theme";
 import Link from "./Link";
 
 const Links = () => (
@@ -14,6 +15,12 @@ const Links = () => (
           flex-direction: column;
           font-family: Arial;
           margin-top: 56px;
+        }
+
+        @media (max-width: ${breakpoints.mobile}) {
+          section {
+            margin-top: 48px;
+          }
         }
       `}
     </style>
