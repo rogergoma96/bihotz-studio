@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bihotz-studio.com/sitemap.xml
+Sitemap: https://www.bihotz-studio.com/sitemap.xml
