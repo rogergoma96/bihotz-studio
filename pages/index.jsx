@@ -12,6 +12,11 @@ export default function Home() {
     <>
       <Head>
         <title>Bihotz Studio</title>
+        <meta
+          name="description"
+          content="We design and develop brands, concepts and digital experiences than
+            connect business to their audiences."
+        ></meta>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
@@ -30,8 +35,8 @@ export default function Home() {
             connect business to their audiences.
           </h2>
           <p>We are happy to meet you:</p>
-          <p>hello@bihotz-studio.com</p>
-          <p>+34 697 525 425</p>
+          <a href="mailto:hello@bihotz-studio.com">hello@bihotz-studio.com</a>
+          <a href="tel:+34697525425">+34 697 525 425</a>
           <p>Barcelona · Spain</p>
         </section>
         <Links />
@@ -45,6 +50,11 @@ export default function Home() {
           padding: 140px 56px 56px 120px;
         }
 
+        section {
+          display: flex;
+          flex-direction: column;
+        }
+
         h2 {
           font-size: 75px;
           font-weight: normal;
@@ -54,6 +64,7 @@ export default function Home() {
           margin-top: 0;
         }
 
+        a,
         p {
           font-size: 40px;
           letter-spacing: -1px;
@@ -72,6 +83,7 @@ export default function Home() {
             line-height: 70px;
           }
 
+          a,
           p {
             font-size: 32px;
             letter-spacing: -1px;
@@ -89,6 +101,7 @@ export default function Home() {
             line-height: 40px;
           }
 
+          a,
           p {
             font-size: 18px;
             letter-spacing: -1px;

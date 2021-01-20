@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { colors } from "../../styles/theme";
+import { breakpoints, colors } from "../../styles/theme";
 
 const Animation = () => {
   const [heightOfAnimation, setHeightOfAnimation] = useState("0px");
@@ -78,6 +78,12 @@ const Animation = () => {
             }
             100% {
               top: -100vh;
+            }
+          }
+
+          @media (max-width: ${breakpoints.mobile}) {
+            span {
+              font-size: 80px;
             }
           }
         `}

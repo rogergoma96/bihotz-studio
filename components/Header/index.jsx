@@ -3,10 +3,8 @@ import { breakpoints, colors } from "../../styles/theme";
 const Header = () => (
   <>
     <header>
-      <p>hello@bihotz-studio.com</p>
-      <span>·</span>
-      <p>+34 697 525 425</p>
-      <span>·</span>
+      <a href="mailto:hello@bihotz-studio.com">hello@bihotz-studio.com</a>
+      <a href="phone:+34697525425">+34 697 525 425</a>
       <p>Barcelona</p>
     </header>
 
@@ -23,6 +21,7 @@ const Header = () => (
         width: 80%;
       }
 
+      a,
       p {
         font-size: 20px;
         letter-spacing: -1px;
@@ -30,16 +29,19 @@ const Header = () => (
         padding: 0 8px;
       }
 
+      a,
       p:nth-child(2) {
         padding: 0 8px;
       }
 
       @media (max-width: ${breakpoints.mobile}) {
-        p:nth-child(2),
-        p:nth-child(3),
-        p:last-child,
-        span {
+        p,
+        a:nth-child(2) {
           display: none;
+        }
+
+        a {
+          font-size: 18px;
         }
       }
     `}</style>
