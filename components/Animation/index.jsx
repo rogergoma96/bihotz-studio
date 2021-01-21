@@ -6,14 +6,14 @@ const Animation = () => {
 
   const handleResize = () =>
     setHeightOfAnimation(
-      `${document.getElementsByTagName("h1")[0].offsetWidth}px`
+      `${document.getElementById("lateral-animation").offsetWidth}px`
     );
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
 
     setHeightOfAnimation(
-      `${document.getElementsByTagName("h1")[0].offsetWidth}px`
+      `${document.getElementById("lateral-animation").offsetWidth}px`
     );
 
     return () => window.removeEventListener("resize", handleResize);
@@ -21,12 +21,10 @@ const Animation = () => {
 
   return (
     <>
-      <section>
-        <h1>
-          <span>Bihotz Studio</span>
-          <span>Bihotz Studio</span>
-          <span>Bihotz Studio</span>
-        </h1>
+      <section id="lateral-animation">
+        <h1>Bihotz Studio</h1>
+        <span aria-hidden>Bihotz Studio</span>
+        <span aria-hidden>Bihotz Studio</span>
       </section>
 
       <style jsx>
@@ -43,12 +41,10 @@ const Animation = () => {
 
           h1 {
             font-weight: normal;
-            height: 100%;
             margin: 0;
-            position: absolute;
-            width: 100%;
           }
 
+          h1,
           span {
             align-items: center;
             animation: move-to-top 12s linear infinite;
