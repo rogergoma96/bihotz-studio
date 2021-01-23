@@ -2952,7 +2952,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^10.5.3:
+lint-staged@10.5.3:
   version "10.5.3"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.3.tgz#c682838b3eadd4c864d1022da05daa0912fb1da5"
   integrity sha512-TanwFfuqUBLufxCc3RUtFEkFraSPNR3WzWcGF39R3f2J7S9+iF9W0KTVLfSy09lYGmZS5NDCxjNvhGMSJyFCWg==
@@ -3348,6 +3348,11 @@ next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
+
+next-translate@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.1.tgz#fd8f5976efb542030563d81d5f605bc019729028"
+  integrity sha512-yCzYSi906IhSzJetVD7pJOKBfceQxYvSA+NUK1YPWhi/VJWFqbp90WAz85uX77eW4nreTeDijQfcAcFG16fjqg==
 
 next@10.0.5:
   version "10.0.5"

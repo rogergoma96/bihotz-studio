@@ -78,6 +78,7 @@ const Animation = () => {
           }
 
           @media (max-width: ${breakpoints.mobile}) {
+            h1,
             span {
               font-size: 80px;
             }
