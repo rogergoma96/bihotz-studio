@@ -5,7 +5,6 @@
   "scripts": {
     "build": "next build",
     "start": "next dev",
-    "export": "next export",
     "lint": "npx eslint . --fix"
   },
   "dependencies": {
