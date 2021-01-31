@@ -1,3 +1,9 @@
-const nextTranslate = require("next-translate");
+// next.config.js
 
-module.exports = nextTranslate();
+module.exports = {
+  i18n: {
+    localeDetection: false,
+    locales: ["es", "ca", "en"],
+    defaultLocale: "en",
+  },
+};

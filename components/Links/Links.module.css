@@ -1,0 +1,14 @@
+.container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  margin-top: 56px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 520px) {
+  .container {
+    margin-top: 48px;
+  }
+}

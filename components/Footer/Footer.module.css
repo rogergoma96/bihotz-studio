@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20%;
+  padding: 0 16px 16px 0;
+  width: 80%;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}

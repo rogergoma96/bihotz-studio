@@ -5,11 +5,11 @@
   "scripts": {
     "build": "next build",
     "start": "next dev",
+    "export": "next export",
     "lint": "npx eslint . --fix"
   },
   "dependencies": {
     "next": "10.0.5",
-    "next-translate": "1.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },

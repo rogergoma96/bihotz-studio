@@ -1,9 +1,19 @@
 @font-face {
   font-family: "AnticDidone";
-  src: url("/fonts/AnticDidone-Regular.ttf");
+  src: url("/fonts/AnticDidone-Regular.woff2") format("woff2"),
+    url("/fonts/AnticDidone-Regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+}
+
+:root {
+  --breakpoint-mobile: 520px;
+  --breakpoint-tablet: 1366px;
+
+  --color-black: #121314;
+  --color-primary: #e64e15;
+  --color-white: #fff;
 }
 
 html,
