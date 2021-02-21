@@ -19,5 +19,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "react/jsx-props-no-spreading": "off",
     "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "global-require": "off",
+    "import/no-dynamic-require": "off",
   },
 };
