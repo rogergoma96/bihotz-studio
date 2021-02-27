@@ -8,9 +8,6 @@
 }
 
 :root {
-  --breakpoint-mobile: 520px;
-  --breakpoint-tablet: 1366px;
-
   --color-black: #121314;
   --color-primary: #e64e15;
   --color-white: #fff;

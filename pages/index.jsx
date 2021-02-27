@@ -23,12 +23,12 @@ const Home = () => {
         />
         <link
           rel="alternate"
-          href="https://covid-vacuna.app/es"
+          href="https://bihotz-studio.com/es"
           hrefLang="es"
         />
         <link
           rel="alternate"
-          href="https://covid-vacuna.app/ca"
+          href="https://bihotz-studio.com/ca"
           hrefLang="ca"
         />
         <link rel="icon" href="/favicon.ico" />
