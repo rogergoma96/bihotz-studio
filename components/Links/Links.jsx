@@ -4,10 +4,7 @@ import styles from "./Links.module.css";
 
 const Links = ({ labels }) => (
   <section className={styles.container}>
-    <Link
-      text={labels.portfolio}
-      href="https://www.behance.net/lauracantabrana"
-    />
+    <Link text={labels.portfolio} href="https://dribbble.com/lauracantabrana" />
     <Link text={labels.follow} href="https://www.instagram.com/bihotz.studio" />
   </section>
 );
