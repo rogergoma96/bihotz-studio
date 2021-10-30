@@ -19,9 +19,8 @@
   animation: move-to-top 12s linear infinite;
   display: flex;
   font-size: 130px;
-  letter-spacing: -4px;
   position: absolute;
-  top: -100vh;
+  top: -250vh;
   transform: rotate(-90deg);
   transform-origin: 0 0;
   user-select: none;
@@ -41,7 +40,7 @@
     top: 250vh;
   }
   100% {
-    top: -100vh;
+    top: -250vh;
   }
 }
 
