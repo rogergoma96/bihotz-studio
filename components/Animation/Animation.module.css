@@ -21,8 +21,7 @@
   font-size: 130px;
   letter-spacing: -4px;
   position: absolute;
-  top: -100vh;
-  transform: rotate(-90deg);
+  transform: translate(0, -100vh) rotate(-90deg);
   transform-origin: 0 0;
   user-select: none;
   white-space: nowrap;
@@ -38,10 +37,10 @@
 
 @keyframes move-to-top {
   0% {
-    top: 250vh;
+    transform: translate(0, 250vh) rotate(-90deg);
   }
   100% {
-    top: -100vh;
+    transform: translate(0, -100vh) rotate(-90deg);
   }
 }
 
