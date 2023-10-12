@@ -19,7 +19,6 @@
   animation: move-to-top 12s linear infinite;
   display: flex;
   font-size: 130px;
-  letter-spacing: -4px;
   position: absolute;
   transform: translate(0, -100vh) rotate(-90deg);
   transform-origin: 0 0;
